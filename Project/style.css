@@ -1,0 +1,24 @@
+body{
+    background-color: beige;
+}
+header{
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.whatJquery{
+    background-color: antiquewhite;
+}
+.mySec1{
+    background-color: antiquewhite;
+}
+.showcon1{
+    display: none;
+    background-color: bisque;
+}
+#whatJquery000{
+    display: none;
+}
+aside{
+    background-color: white;
+}

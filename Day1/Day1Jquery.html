@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./jquery-3.6.1.min.js"></script>
+    <title>Day1Jquery</title>
+  </head>
+  <body>
+    <button id="fade">fade user</button>
+    <div
+      id="div1"
+      style="
+        display: none;
+        background-color: brown;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      "
+    >
+      <h1>hello user</h1>
+    </div>
+    <button id="hide">hide</button>
+    <button id="show">show</button>
+    <p id="myParag">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta
+      consequuntur incidunt in recusandae obcaecati ducimus pariatur impedit id
+      placeat dolore?
+    </p>
+    <div class="div2" style="background-color: cadetblue">
+      <h1 id="slideDown">Press Me To slide Down</h1>
+      <h1 id="helloDown" style="display: none">hello user</h1>
+    </div>
+    <button id="animateBtn">Start Animation</button>
+
+    <style>
+      #panel,
+      #flip {
+        padding: 5px;
+        font-size: 18px;
+        text-align: center;
+        background-color: #555;
+        color: white;
+        border: solid 1px #666;
+        border-radius: 3px;
+      }
+
+      #panel {
+        padding: 50px;
+        display: none;
+      }
+    </style>
+    <div>
+      <button id="stop">Stop sliding</button>
+
+      <div id="flip">Click to slide down panel</div>
+      <div id="panel">Hello User!</div>
+    </div>
+
+    <div
+      id="animateParag"
+      style="
+        background: #98bf21;
+        height: 100px;
+        width: 200px;
+        position: absolute;
+      "
+    >
+      Hello User
+    </div>
+    <script src="./Day1Jquery.js"></script>
+  </body>
+</html>

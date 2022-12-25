@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="ahmed mostafa" />
+    <meta name="description" content="JQuery" />
+    <meta name="keywords" content="JQuery javaScript" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="./jquery-3.6.1.min.js"></script>
+    <title>JQuery</title>
+  </head>
+  <body>
+    <header>
+      <img
+        src="data:image/png;base64,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"
+        alt=""
+        height="70rem"
+      />
+      <h1>JQuery</h1>
+    </header>
+    <section class="mySec1" id="mySec10">
+      <h2 class="whatJquery" id="whatJquery0">
+        What is jQuery? "hide/Show/Toggle"
+      </h2>
+      <div class="showcon1" id="showcon10">
+        <p>
+          jQuery is a lightweight, "write less, do more", JavaScript library.
+          <br />
+
+          The purpose of jQuery is to make it much easier to use JavaScript on
+          your website. <br />
+
+          jQuery takes a lot of common tasks that require many lines of
+          JavaScript code to accomplish, and wraps them into methods that you
+          can call with a single line of code. <br />
+
+          jQuery also simplifies a lot of the complicated things from
+          JavaScript, like AJAX calls and DOM manipulation. <br />
+
+          The jQuery library contains the following features: <br />
+        </p>
+        <ul>
+          <li>HTML/DOM manipulation</li>
+          <li>CSS manipulation</li>
+          <li>HTML event methods</li>
+          <li>Effects and animations</li>
+          <li>AJAX</li>
+          <li>Utilities</li>
+        </ul>
+      </div>
+    </section>
+    <section class="mySec1" id="mySec100">
+      <h2 class="whatJquery" id="whatJquery00">
+        What is jQuery? "slide Toggle"
+      </h2>
+      <div class="showcon1" id="showcon100">
+        <p>
+          There are lots of other JavaScript libraries out there, but jQuery is
+          probably the most popular, and also the most extendable.
+          <br /><br /><br />
+
+          Many of the biggest companies on the Web use jQuery, such as:
+        </p>
+        <ul>
+          <li>Google</li>
+          <li>Microsoft</li>
+          <li>IBM</li>
+          <li>Netflix</li>
+        </ul>
+      </div>
+    </section>
+    <section class="mySec1">
+      <h2 class="whatJquery" id="mySec1000">
+        Adding jQuery to Your Web Pages "fade Toggle"
+      </h2>
+      <div class="showcon1" id="whatJquery000">
+        <p>
+          There are several ways to start using jQuery on your web site. You
+          can:
+        </p>
+        <ul>
+          <li>Download the jQuery library from jQuery.com</li>
+          <li>Include jQuery from a CDN, like Google</li>
+        </ul>
+      </div>
+    </section>
+    <section class="mySec1">
+      <h2 class="whatJquery" id="mySec10000">Downloading jQuery "Call Back"</h2>
+      <div class="showcon1" id="whatJquery0000" style="display: block">
+        <p>There are two versions of jQuery available for downloading:</p>
+        <ul>
+          <li>
+            Production version - this is for your live website because it has
+            been minified and compressed
+          </li>
+          <li>
+            Development version - this is for testing and development
+            (uncompressed and readable code)
+          </li>
+        </ul>
+        <p>Both versions can be downloaded from jQuery.com.</p>
+        <p>
+          The jQuery library is a single JavaScript file, and you reference it
+          with the HTML script tag (notice that the script tag should be inside
+          the head section):
+        </p>
+      </div>
+    </section>
+    <section class="mySec1">
+      <h2 class="whatJquery" id="mySec100000">jQuery CDN "Chaining"</h2>
+      <div class="showcon1" id="whatJquery00000">
+        <p>
+          If you don't want to download and host jQuery yourself, you can
+          include it from a CDN (Content Delivery Network). <br />
+          <br />
+          Google is an example of someone who host jQuery:
+        </p>
+        <p>
+          &lt;head&gt; &lt;script
+          src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"&gt;
+          &lt;/script&gt; &lt;/head&gt;
+        </p>
+      </div>
+    </section>
+    <section class="mySec1">
+      <h2 class="whatJquery" id="mySec1000000">jQuery Syntax "SlidUp"</h2>
+      <div class="showcon1" id="whatJquery000000" style="display: block">
+        <p>
+          The jQuery syntax is tailor-made for selecting HTML elements and
+          performing some action on the element(s). <br />
+          Basic syntax is: $(selector).action()
+        </p>
+        <ul>
+          <li>A $ sign to define/access jQuery</li>
+          <li>A (selector) to "query (or find)" HTML elements</li>
+          <li>A jQuery action() to be performed on the element(s)</li>
+        </ul>
+        <p>
+          Examples: <br />
+          $(this).hide() - hides the current element. <br />
+          $("p").hide() - hides all &lt;p&gt; elements. <br />
+          $(".test").hide() - hides all elements with class="test". <br />
+          $("#test").hide() - hides the element with id="test".
+        </p>
+      </div>
+    </section>
+
+    <aside>
+      <button id="btn1">append text</button>
+      <button id="btn3">Prepended text</button>
+      <p>courses</p>
+      <div>
+        <button id="btn7" style="background-color: red">
+          Remove ol element
+        </button>
+        <button id="btn8" style="background-color: rgb(247, 122, 122)">
+          Empty the ol element
+        </button>
+      </div>
+      <button id="btn2">append list item</button>
+      <button id="btn4">Prepended list item</button>
+      <div
+        id="div9"
+        style="
+          background-color: yellow;
+          height: 15rem;
+          overflow-y: scroll;
+          width: 15rem;
+        "
+      >
+        <ol>
+          <li>html</li>
+          <li>css</li>
+          <li>C</li>
+        </ol>
+      </div>
+      <iframe
+        src="./another.html"
+        width="600"
+        height="200"
+        style="border: 2"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      <div>
+        <button id="btn5">insert before</button>
+        <button id="btn6">insert after</button>
+      </div>
+      <img
+        id="myImg"
+        src="data:image/jpeg;base64,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"
+        alt=""
+      />
+    </aside>
+    <script src="./main.js"></script>
+  </body>
+</html>
